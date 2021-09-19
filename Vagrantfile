@@ -33,9 +33,13 @@ Vagrant.configure("2") do |config|     #Provisioned machine names, Ip etc..
             node.vm.network :private_network, ip: machine[:ip]
             node.vm.network "forwarded_port", guest: 22, host: machine[:ssh_port], id: "ssh"
             node.vm.provider :virtualbox do |vb|
-                vb.customize ["modifyvm", :id, "--memory", 512]   #specs of the provisioned machines
+                vb.customize ["modifyvm", :id, "--memory", 512]   #specs of the provisioned machines, you can change these if you wish to adjust to your project needs.
                 vb.customize ["modifyvm", :id, "--cpus", 1]
             end
         end
     end
 end
+
+
+#Run "Vagrant init" to initialise the provisioning of virtual machines.
+#Run "Vagrant up" 
