@@ -41,5 +41,5 @@ Vagrant.configure("2") do |config|     #Provisioned machine names, Ip etc..
 end
 
 
-#Run "Vagrant init" to initialise the provisioning of virtual machines.
-#Run "Vagrant up" 
+#Run "Vagrant init" to initialise the provisioning of virtual machines, This will create new Vagrant directory in your folder structure .
+#Run "Vagrant up" will create your 4 new machines or however many you have in your configuration.
