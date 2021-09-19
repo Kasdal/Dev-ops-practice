@@ -4,4 +4,4 @@
 
 ```Vagrant ssh main ``` to access the main host. If it asks for password, password=Vagrant
 
-
+[Imgur](https://i.imgur.com/m12o8Y8.gifv)
