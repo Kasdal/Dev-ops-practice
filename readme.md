@@ -20,7 +20,7 @@ Once the key is created you will need to copy it to other 3 servers.
 Once copied, test that you have ssh access to servers. ```ssh vagrant@server1``` it should connect to it without asking for password.
 
 
-# Project Name
+# Microservices Dev-Ops Project.
 > Simple project using multiple VM machines to create a microservices for basic app.
 
 ## Table of Contents
@@ -37,8 +37,7 @@ Once copied, test that you have ssh access to servers. ```ssh vagrant@server1```
 
 ## General Information
 - Fairly simple take on microservices running on multiple machines.
-- Main purpose is to learn more and familirize one with the possibilities of infrastructure as code.
-- Why did you undertake it?
+- Main purpose is to learn more and familiarize one self with the possibilities of infrastructure as code.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
@@ -54,12 +53,13 @@ Once copied, test that you have ssh access to servers. ```ssh vagrant@server1```
 
 ## Features
 List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- Infrastructure as code ready to deploy
+- Automated software instalation 
+- Containerization
+- Orchestration
 
 
-## Screenshots
+<!--## Screenshots
 ![Example screenshot](./img/screenshot.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
@@ -70,18 +70,18 @@ What are the project requirements/dependencies? Where are they listed? A require
 Proceed to describe how to install / setup one's local environment / get started with the project.
 
 
-## Usage
+<!--## Usage
 How does one go about using it?
 Provide various use cases and code examples here.
 
-`write-your-code-here`
+`write-your-code-here`-->
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is: _in progress_
 
 
-## Room for Improvement
+<!-- ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
 Room for improvement:
@@ -90,8 +90,8 @@ Room for improvement:
 
 To do:
 - Feature to be added 1
-- Feature to be added 2
+- Feature to be added 2 
 
 
 ## Contact
-Created by
+Created by -->
