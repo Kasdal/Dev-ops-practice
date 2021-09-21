@@ -34,3 +34,4 @@
 .vagrant/machines/server3/virtualbox/private_key
 .vagrant/machines/server3/virtualbox/synced_folders
 .vagrant/machines/server3/virtualbox/vagrant_cwd
+.vagrant/rgloader/loader.rb

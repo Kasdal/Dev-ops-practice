@@ -1,14 +1,13 @@
-
-- hosts: servers
+- hosts: nodes
   become: yes
   tasks:
-  - name: make sure docker is installed
+  - name: ensure docker is installed
     apt:
       name: docker.io
       state: latest
-      update_cache: yes  #This is the same as doing "sudo apt update"
+      update_cache: yes
       
-  - name: ensure docker compose is installed
+  - name: ensure docker is installed
     apt:
       name: docker-compose
       state: latest
