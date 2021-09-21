@@ -1,3 +1,7 @@
+Simple project using multiple VM machines to create a microservices for basic app. 
+Tools utilized in this project include: Git, Virtual Box, Vagrant, Ansible, Docker, Docker Compose, Docker Swarm.
+<hr>
+
 Start by running the following commands
 
 ```"Vagrant init" ``` to initialise the provisioning of virtual machines.
@@ -14,3 +18,5 @@ While still in "main" machine do ```"ssh-keygen" ``` while creating ssh key leav
 Once the key is created you will need to copy it to other 3 servers.
 ```ssh-copy-id server1 && ssh-copy-id server2 && ssh-copy-id server3``` this will copy over the public key from main.
 Once copied test that you have ssh access to servers. ```ssh vagrant@server1``` it should connect to it without asking for password.
+
+
