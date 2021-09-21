@@ -68,6 +68,11 @@ change directory to ansible ```cd ansible```
 ##
 run ```ansible servers -i thehosts -m command -a hostname``` 
 You should get a response that it found "main" and get all 3 responses from servers
+##
+If all of the tests passed, let's now have some fun and explore the power of ansible.
+##
+run ```ansible servers -i thehosts -m command -a 'sudo apt-get -y install python-simplejson'``` 
+which will install python and json on all our servers allowing us to have more capabilities on those machines.
 <!--What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
 
 Proceed to describe how to install / setup one's local environment / get started with the project.-->
