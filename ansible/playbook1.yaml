@@ -1,4 +1,4 @@
-- hosts: nodes
+- hosts: servers
   become: yes
   tasks:
   - name: ensure docker is installed
@@ -7,7 +7,7 @@
       state: latest
       update_cache: yes
       
-  - name: ensure docker is installed
+  - name: ensure docker-compose is installed
     apt:
       name: docker-compose
       state: latest
