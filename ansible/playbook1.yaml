@@ -1,11 +1,11 @@
-- hosts: servers
-  become: yes
+- hosts: servers    #Group taht will be affected
+  become: yes       #Same as sudo
   tasks:
-  - name: ensure docker is installed
+  - name: ensure docker is installed  #Generic name of what the task will do
     apt:
-      name: docker.io
-      state: latest
-      update_cache: yes
+      name: docker.io     #App that will be installed 
+      state: latest       #Version of the app to be installed (can be specified to any earlier version)
+      update_cache: yes   #Same as "sudo apt update"
       
   - name: ensure docker-compose is installed
     apt:
@@ -15,5 +15,5 @@
 
   - name: Added user to docker group
     user:
-      name: vagrant
+      name: vagrant     #Ads the user to docker group.
       groups: docker

@@ -9,8 +9,7 @@ Vagrant.configure("2") do |config|     #Provisioned machine names, Ip etc..
         {
           :hostname => "server1",
           :box => "bento/ubuntu-18.04",
-          :ip => "
-          ",
+          :ip => "172.16.1.51",
           :ssh_port => '2201'
         },
         {
