@@ -69,11 +69,11 @@ You should get a response that it found "main" and get all 3 responses from serv
 ##
 If all of the tests passed, let's now have some fun and explore the power of ansible.
 ##
-![img2](https://user-images.githubusercontent.com/36207533/134399272-11fef3e3-3349-40ee-bbe8-65ee45b0fd9f.png)
-##
 run ```ansible servers -i thehosts -m command -a 'sudo apt-get -y install python-simplejson'``` 
 Which will install python and json on all our servers allowing us to have more capabilities on those machines.
 This will do an install on all 3 servers, providing new posibilities.
+##
+![img2](https://user-images.githubusercontent.com/36207533/134399272-11fef3e3-3349-40ee-bbe8-65ee45b0fd9f.png)
 ##
 
 ## Screenshots
