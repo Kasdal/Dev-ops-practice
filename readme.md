@@ -65,20 +65,21 @@ change directory to ansible ```cd ansible```
 run ```ansible servers -i thehosts -m command -a hostname``` 
 You should get a response that it found "main" and get all 3 responses from servers
 ##
-If all of the tests passed, let's now have some fun and explore the power of ansible.
-##
-run ```ansible servers -i thehosts -m command -a 'sudo apt-get -y install python-simplejson'``` 
-which will install python and json on all our servers allowing us to have more capabilities on those machines.
-
-##
-
-## Screenshots
-##
 ![img1](https://user-images.githubusercontent.com/36207533/134399268-1be85e24-5caf-4613-adf7-bc96c3a657ed.png)
+##
+If all of the tests passed, let's now have some fun and explore the power of ansible.
 ##
 ![img2](https://user-images.githubusercontent.com/36207533/134399272-11fef3e3-3349-40ee-bbe8-65ee45b0fd9f.png)
 ##
+run ```ansible servers -i thehosts -m command -a 'sudo apt-get -y install python-simplejson'``` 
+which will install python and json on all our servers allowing us to have more capabilities on those machines.
+##
 ![img3](https://user-images.githubusercontent.com/36207533/134399273-a1243212-6d6f-43bb-91db-6f57cfe6c90a.png)
+##
+
+## Screenshots
+
+
 ##
 ![img4](https://user-images.githubusercontent.com/36207533/134399276-7a813231-2685-4bbd-9266-d23b9d6a70a5.png)
 ##
