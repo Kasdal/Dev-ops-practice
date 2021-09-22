@@ -1,5 +1,5 @@
 # Microservices Dev-Ops Project.
-> Simple project using multiple VM machines to create a microservices for basic app.
+> Simple python project using multiple VM machines to create a microservices for basic app.
 > <hr>
 
 ## Table of Contents
