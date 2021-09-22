@@ -41,6 +41,7 @@ List the ready features here:
 <hr>
 Download the project to your local machine and open it in VSCode, PowerShell or some other IDE.
 Open a terminal in VSCode
+##
 Start by running the following commands
 
 ```"Vagrant init" ``` to initialise the provisioning of virtual machines.
