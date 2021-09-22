@@ -36,35 +36,7 @@ List the ready features here:
 - Automated software instalation 
 - Containerization
 - Orchestration
-
-
-## Screenshots
 ##
-![img1](https://user-images.githubusercontent.com/36207533/134399268-1be85e24-5caf-4613-adf7-bc96c3a657ed.png)
-##
-![img2](https://user-images.githubusercontent.com/36207533/134399272-11fef3e3-3349-40ee-bbe8-65ee45b0fd9f.png)
-##
-![img3](https://user-images.githubusercontent.com/36207533/134399273-a1243212-6d6f-43bb-91db-6f57cfe6c90a.png)
-##
-![img4](https://user-images.githubusercontent.com/36207533/134399276-7a813231-2685-4bbd-9266-d23b9d6a70a5.png)
-##
-![img5](https://user-images.githubusercontent.com/36207533/134399254-4ebe4010-8de4-4630-b9cd-e8a28a789f90.png)
-##
-![img6](https://user-images.githubusercontent.com/36207533/134399256-4eadd491-fb11-42dc-870c-6bf91f52532f.png)
-##
-![img7](https://user-images.githubusercontent.com/36207533/134399258-fd5e216e-0365-467f-8034-4afc5de695b5.png)
-##
-![img8](https://user-images.githubusercontent.com/36207533/134399261-d17b36a7-d41b-46d1-bdc0-50c2a65a7d86.png)
-##
-![img9](https://user-images.githubusercontent.com/36207533/134399262-93804294-ac79-4cc6-88bf-dd469c7e36f2.png)
-##
-![ansible-swarm](https://user-images.githubusercontent.com/36207533/134399263-e8782b0d-c767-4aee-b352-738fc9da8ef4.png)
-##
-![swarm-rdy](https://user-images.githubusercontent.com/36207533/134399265-f621fd7e-88e9-4d10-a9fb-7f509ac3d2b1.png)
-##
-![End](https://user-images.githubusercontent.com/36207533/134399267-06d8600c-e6d1-4ecc-81a0-549725c52125.png)
-<hr>
-
 ## Setup
 <hr>
 Start by running the following commands
@@ -95,6 +67,36 @@ If all of the tests passed, let's now have some fun and explore the power of ans
 ##
 run ```ansible servers -i thehosts -m command -a 'sudo apt-get -y install python-simplejson'``` 
 which will install python and json on all our servers allowing us to have more capabilities on those machines.
+
+##
+
+## Screenshots
+##
+![img1](https://user-images.githubusercontent.com/36207533/134399268-1be85e24-5caf-4613-adf7-bc96c3a657ed.png)
+##
+![img2](https://user-images.githubusercontent.com/36207533/134399272-11fef3e3-3349-40ee-bbe8-65ee45b0fd9f.png)
+##
+![img3](https://user-images.githubusercontent.com/36207533/134399273-a1243212-6d6f-43bb-91db-6f57cfe6c90a.png)
+##
+![img4](https://user-images.githubusercontent.com/36207533/134399276-7a813231-2685-4bbd-9266-d23b9d6a70a5.png)
+##
+![img5](https://user-images.githubusercontent.com/36207533/134399254-4ebe4010-8de4-4630-b9cd-e8a28a789f90.png)
+##
+![img6](https://user-images.githubusercontent.com/36207533/134399256-4eadd491-fb11-42dc-870c-6bf91f52532f.png)
+##
+![img7](https://user-images.githubusercontent.com/36207533/134399258-fd5e216e-0365-467f-8034-4afc5de695b5.png)
+##
+![img8](https://user-images.githubusercontent.com/36207533/134399261-d17b36a7-d41b-46d1-bdc0-50c2a65a7d86.png)
+##
+![img9](https://user-images.githubusercontent.com/36207533/134399262-93804294-ac79-4cc6-88bf-dd469c7e36f2.png)
+##
+![ansible-swarm](https://user-images.githubusercontent.com/36207533/134399263-e8782b0d-c767-4aee-b352-738fc9da8ef4.png)
+##
+![swarm-rdy](https://user-images.githubusercontent.com/36207533/134399265-f621fd7e-88e9-4d10-a9fb-7f509ac3d2b1.png)
+##
+![End](https://user-images.githubusercontent.com/36207533/134399267-06d8600c-e6d1-4ecc-81a0-549725c52125.png)
+<hr>
+
 <!--What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
 
 Proceed to describe how to install / setup one's local environment / get started with the project.-->
