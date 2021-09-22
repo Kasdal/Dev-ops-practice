@@ -38,7 +38,6 @@ List the ready features here:
 - Orchestration
 ##
 ## Setup
-<hr>
 Download the project to your local machine and open it in VSCode, PowerShell or some other IDE.
 Open a terminal in VSCode
 <hr>
