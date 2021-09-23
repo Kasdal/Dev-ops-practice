@@ -74,13 +74,15 @@ Which will install python and json on all our servers allowing us to have more c
 ##
 ![img2](https://user-images.githubusercontent.com/36207533/134399272-11fef3e3-3349-40ee-bbe8-65ee45b0fd9f.png)
 ##
+Ok so, let's run our ansible playbook and install docker on all 3 servers.
+Running the following command on your "main" will do just that. ```ansible-playbook -i thehosts -K playbook1.yaml```
+##
+![img4](https://user-images.githubusercontent.com/36207533/134399276-7a813231-2685-4bbd-9266-d23b9d6a70a5.png)
+
+After we can run a quick script to make sure docker was properly installed. Ssh into all servers and run ```docker run hello-world```
 
 ## Screenshots
 
-##
-![img4](https://user-images.githubusercontent.com/36207533/134399276-7a813231-2685-4bbd-9266-d23b9d6a70a5.png)
-##
-![img5](https://user-images.githubusercontent.com/36207533/134399254-4ebe4010-8de4-4630-b9cd-e8a28a789f90.png)
 ##
 ![img6](https://user-images.githubusercontent.com/36207533/134399256-4eadd491-fb11-42dc-870c-6bf91f52532f.png)
 ##
