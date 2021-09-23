@@ -79,14 +79,16 @@ Running the following command on your "main" will do just that. ```ansible-playb
 ##
 ![img4](https://user-images.githubusercontent.com/36207533/134399276-7a813231-2685-4bbd-9266-d23b9d6a70a5.png)
 
-After we can run a quick script to make sure docker was properly installed. Ssh into all servers and run ```docker run hello-world```
+After we can run a quick script to make sure docker was properly installed.
+Ssh into all servers and run ```docker run hello-world```
+
+Next we can fork this project https://github.com/nextrevision/ansible-swarm-playbook to get docker swarm on our system.
+You will need to adjust couple of things to make it work, mainly the host inventory file and add a manager and worker node to it.
+Also required is to change eth0 interface in swarm.yaml to eth1
+
 
 ## Screenshots
 
-##
-![img6](https://user-images.githubusercontent.com/36207533/134399256-4eadd491-fb11-42dc-870c-6bf91f52532f.png)
-##
-![img7](https://user-images.githubusercontent.com/36207533/134399258-fd5e216e-0365-467f-8034-4afc5de695b5.png)
 ##
 ![img8](https://user-images.githubusercontent.com/36207533/134399261-d17b36a7-d41b-46d1-bdc0-50c2a65a7d86.png)
 ##
