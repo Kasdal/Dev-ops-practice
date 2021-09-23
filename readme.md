@@ -7,10 +7,8 @@
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [Setup](#setup)
-* [Usage](#usage)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
-* [Contact](#contact)
 
 
 ## General Information
@@ -103,8 +101,11 @@ Now go open another PowerShell, Terminal etc.. and ssh into main, ```cd /vagrant
 You can run curl server1:5000 or any other server and you can see that every time you run that command you will likely get a response from a container with different id.
 #
 ![Test1](https://user-images.githubusercontent.com/36207533/134539052-23fee95f-4a4b-41ef-a3de-0f74de7472c4.png)
-
 <hr>
+You can adapt this project to run any other app by editing Dockerfile with your variation, make changes to requirements.txt, and docker-compose.yaml
+You can then use the Dockerfile to build the image and host it on Dockerhub or similar service.
+
+Enjoy!
 
 
 <!--What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
@@ -114,20 +115,12 @@ Proceed to describe how to install / setup one's local environment / get started
 
 
 ## Project Status
-Project is: _in progress_
+Project is: mostly done. 
 
 
-<!-- ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
+## Room for Improvement
 
 Room for improvement:
-- Improvement to be done 1
+- Add monitoring by implementing Grafana, Prometheous or similar.
 - Improvement to be done 2
 
-To do:
-- Feature to be added 1
-- Feature to be added 2 
-
-
-## Contact
-Created by -->
