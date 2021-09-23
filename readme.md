@@ -122,5 +122,3 @@ Project is: mostly done.
 
 Room for improvement:
 - Add monitoring by implementing Grafana, Prometheous or similar.
-- Improvement to be done 2
-
