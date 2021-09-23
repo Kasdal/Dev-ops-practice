@@ -76,8 +76,7 @@ Which will install python and json on all our servers allowing us to have more c
 ##
 
 ## Screenshots
-#
-![img3](https://user-images.githubusercontent.com/36207533/134399273-a1243212-6d6f-43bb-91db-6f57cfe6c90a.png)
+
 ##
 ![img4](https://user-images.githubusercontent.com/36207533/134399276-7a813231-2685-4bbd-9266-d23b9d6a70a5.png)
 ##
