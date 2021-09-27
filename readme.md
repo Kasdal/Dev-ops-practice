@@ -6,7 +6,7 @@
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
-* [Setup](#setup)
+* [Step-by-step Instructions](#step-by-step instructions)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 
@@ -34,7 +34,7 @@ List the ready features here:
 - Containerization
 - Orchestration
 ##
-## Setup
+### ✅  Step-by-step Instructions
 Download the project to your local machine and open it in VSCode, PowerShell or some other IDE.
 Open a terminal in VSCode
 <hr>
