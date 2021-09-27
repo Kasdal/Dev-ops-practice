@@ -6,7 +6,7 @@
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
-* [Step-by-step Instructions](#step-by-step instructions)
+* [Step-by-step Instructions](#step-by-step-instructions)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 
